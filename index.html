@@ -1,9 +1,18 @@
+1. Создать хедер (вписать туда текст и форму) ОК
+2. Разделить его на блоки с границами и правильно разместить на сайте
+3. Подсветить формы при наведении мыши
+4. Подсветить заголовки при наведении мыши
+5. Создать и наполнить боди
+6. Проверить правильность переходов на сссылки
+7. Создать футер
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GG LAB fitness</title>
     <style>
         h1 {
         font-family: "Kalnia Glaze", serif;
@@ -12,12 +21,33 @@
         font-style: normal;
         font-variation-settings:"wdth" 100;
         }
+        #Instagram {
+            width: 20px;
+            height: 20px;
+        }
+        #Telegram {
+            width: 20px;
+            height: 20px;
+        }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>GG LAB</h1>
+    <header>
+        <h1>GG LAB</h1>
+        <h2>Результаты учеников</h2>
+        <h2>Программы</h2>
+        <h2>Отзывы</h2>
+        <h2>Вопрос-Ответ</h2>
+        <h2><img id="Instagram" src="../Images/Instagram_icon.png" alt="Instagram icon"></h2>
+        <h2><img id="Telegram" src="../Images/Telegram_icon.png" alt="Telegram icon"></h2>
+        <form>
+            <input type="text" placeholder="Логин">
+            <input type="password" placeholder="Пароль">
+            <input type="submit">
+        </form>
+    </header>
 </body>
 </html>
