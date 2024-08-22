@@ -1,0 +1,32 @@
+h1 {
+    font-family: "Kalnia Glaze", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    }
+    .Instagram {
+        width: 20px;
+        height: 20px;
+    }
+    .Telegram {
+        width: 20px;
+        height: 20px;
+    }       
+    h1, p, form {
+        display: inline-block; 
+        margin: 30px;   
+        position: relative;
+        bottom: 10px;     
+    }
+    .header {
+        background-color: rgb(142, 191, 209);
+    }
+    .competition_photo {
+        width: 200px;
+    }
+    .sidebar-element {
+        float: left;
+        width: 400px;
+        height: 500px;
+    }

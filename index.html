@@ -1,53 +1,40 @@
-1. Создать хедер (вписать туда текст и форму) ОК
-2. Разделить его на блоки с границами и правильно разместить на сайте
-3. Подсветить формы при наведении мыши
-4. Подсветить заголовки при наведении мыши
-5. Создать и наполнить боди
-6. Проверить правильность переходов на сссылки
-7. Создать футер
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GG LAB fitness</title>
-    <style>
-        h1 {
-        font-family: "Kalnia Glaze", serif;
-        font-optical-sizing: auto;
-        font-weight: <weight>;
-        font-style: normal;
-        font-variation-settings:"wdth" 100;
-        }
-        #Instagram {
-            width: 20px;
-            height: 20px;
-        }
-        #Telegram {
-            width: 20px;
-            height: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
 </head>
+<header>
+    <div class="header">
+            <h1 id="logo">GG LAB</h1>
+            <p id="first-column"><a href="">Результаты учеников</a></p>
+            <p id="second-column"><a href="">Программы</a></p>
+            <p id="third-column"><a href="">Отзывы</a></p>
+            <p id="fourth-column"><a href="">Вопрос-Ответ</a></p>
+            <p id="fifth-column"><a href=""><img class="Instagram" src="../Images/Instagram_icon.png" alt="Instagram icon"></a></p>
+            <p id="six-column"><a href=""><img class="Telegram" src="../Images/Telegram_icon.png" alt="Telegram icon"></a></p>
+            <form id="form-column">
+                <input type="text" placeholder="Логин">
+                <input type="password" placeholder="Пароль">
+                <input type="submit">
+            </form>  
+    </div>
+        </header>   
 <body>
-    <header>
-        <h1>GG LAB</h1>
-        <h2>Результаты учеников</h2>
-        <h2>Программы</h2>
-        <h2>Отзывы</h2>
-        <h2>Вопрос-Ответ</h2>
-        <h2><img id="Instagram" src="../Images/Instagram_icon.png" alt="Instagram icon"></h2>
-        <h2><img id="Telegram" src="../Images/Telegram_icon.png" alt="Telegram icon"></h2>
-        <form>
-            <input type="text" placeholder="Логин">
-            <input type="password" placeholder="Пароль">
-            <input type="submit">
-        </form>
-    </header>
+    <div class="sidebar-element">
+        <p>Команда "GG LAB" состоит из специалистов по фитнесу и нутрициологии. Моя миссия - помогать всем, кто хочет изменить себя, свои физические показатели и здоровье.</p>
+        <br>
+        <p>Дойдем вместе к твоей цели лего и быстро с "GG LAB"!!!</p>
+        <br>
+        <p>Стройное, подтянутое тело за 90 дней. Помощь и сопровождение тренера и нутрициолога. Моя онлайн программа поможет улучшить состояние здоровья и добиться цели. Ты научишься питаться, тренироваться и растягиваться.</p>
+    </div>
+    <div>
+        <img class="competition_photo" src="../Images/me_on_competition.png" alt="my photo on UBPF competition 2024">
+    </div>
 </body>
 </html>
