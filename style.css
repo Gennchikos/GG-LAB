@@ -1,32 +1,245 @@
-h1 {
-    font-family: "Kalnia Glaze", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
+.head-container {
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 15pt;
+    position: fixed;
+    width: 1505px;
+    top: 20px;
+    background-color: rgb(94, 91, 91)
+    
+}
+p {
+
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-variation-settings:"wdth" 100;
-    }
-    .Instagram {
-        width: 20px;
-        height: 20px;
-    }
-    .Telegram {
-        width: 20px;
-        height: 20px;
-    }       
-    h1, p, form {
-        display: inline-block; 
-        margin: 30px;   
-        position: relative;
-        bottom: 10px;     
-    }
-    .header {
-        background-color: rgb(142, 191, 209);
-    }
-    .competition_photo {
-        width: 200px;
-    }
-    .sidebar-element {
-        float: left;
-        width: 400px;
-        height: 500px;
-    }
+    color: whitesmoke;
+
+}
+
+.a_head {
+
+    color: whitesmoke;
+    text-decoration: none;
+
+
+}
+.a_head:hover {
+
+    border-radius: 30%;
+    background-color: blanchedalmond;
+    width: 500px;
+    height: 500px;
+    text-decoration: none;
+    color: black;
+
+}
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+.competition {
+
+    width: 500px;
+    height: 600px;
+    border-radius: 30%;
+    grid-area: 1/2/2/3;
+    margin-left: 25%;
+    margin-top: 20%;
+
+}
+.main_content {
+
+    font-size: 25pt;
+    text-align: justify;
+
+}
+.span-1 {
+
+font-size: 35pt;
+
+}
+.button {
+
+    width: 50%;
+    height: 150%;
+    margin-left: 25%;
+    font-size: 30pt;
+    background-color: rgb(94, 91, 91);
+    color: whitesmoke;
+    border-radius: 40%;
+    border: 4px solid #FAEBD790;
+
+}
+.button:hover {
+
+    background-color: blanchedalmond;
+    color: black;
+
+}
+.question {
+
+    font-size: 35pt;
+    margin-top: 200px;
+    text-align: center;
+
+}
+.question-1 {
+
+    color: blanchedalmond;
+    font-weight: bolder;
+
+}
+.answer-img {
+
+    width: 250px;
+    height: 250px;
+    margin-left: 25%;
+    margin-top: 100px;
+
+}
+.main_container-2 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+
+}
+.answer {
+
+    text-align: justify;
+    font-size: 20pt;
+
+}
+.answers {
+
+    font-size: 20pt;
+    font-weight: bolder;
+    color: blanchedalmond;
+
+}
+.under-question {
+
+    text-align: center;
+    font-size: 20pt;
+    width: 500px;
+    margin-left: 33%;
+
+}
+.question-2 {
+
+    color: blanchedalmond;
+    font-weight: bolder;
+
+}
+.answers-p {
+
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bolder;
+    color: blanchedalmond;
+    margin-top: -100px;
+
+}
+.answer-img-2 {
+
+    width: 100px;
+    height: 100px;
+
+}
+.answer-2 {
+
+    width: 150px;
+
+
+}
+.main_container-3 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.center {
+
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+
+}
+.answers-p-2 {
+
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bolder;
+    color: blanchedalmond;
+    margin-top: 100px;
+
+}
+.flex-head {
+
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bolder;
+    color: blanchedalmond;
+
+
+}
+.flex-text {
+
+    text-align: center;
+
+}
+.flex-button {
+
+    background-color: rgb(94, 91, 91);
+    color: whitesmoke;
+    border-radius: 40%;
+    border: 4px solid #FAEBD790;
+    width: 100px;
+
+}
+.flex-button:hover {
+
+    background-color: blanchedalmond;
+    color: black;
+
+}
+.flex-container {
+
+display: inline-flex;
+flex-direction: row;
+width: 1000px;
+gap: 100px;
+margin-left: 17%;
+text-align: center;
+
+}
+.flex-1:hover {
+
+    border-radius: 30%;
+    width: 15   0%;
+    background-color: #FAEBD790;
+
+}
+.footer_logo {
+
+    color: aliceblue;
+    margin-left: 0.1%;
+
+}
+.footer_end {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    align-items: center;
+    background-color: #00000080;
+
+}
+
+
