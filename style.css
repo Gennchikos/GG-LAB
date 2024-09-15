@@ -1,14 +1,21 @@
-.head-container {
-
-    display: flex;
-    justify-content: space-between;
-    font-size: 15pt;
-    position: fixed;
-    width: 1505px;
-    top: 20px;
-    background-color: rgb(94, 91, 91)
-    
+.container {
+    margin: 0;
 }
+
+.head {
+    position: sticky;
+    top: 0;
+    background-color: rgb(94, 91, 91)
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14pt;
+    padding: 8px 24px;
+}
+
 p {
 
     font-family: "Anton", sans-serif;
@@ -59,7 +66,7 @@ p {
 }
 .span-1 {
 
-font-size: 35pt;
+    font-size: 35pt;
 
 }
 .button {
@@ -211,12 +218,12 @@ font-size: 35pt;
 }
 .flex-container {
 
-display: inline-flex;
-flex-direction: row;
-width: 1000px;
-gap: 100px;
-margin-left: 17%;
-text-align: center;
+    display: inline-flex;
+    flex-direction: row;
+    width: 1000px;
+    gap: 100px;
+    margin-left: 17%;
+    text-align: center;
 
 }
 .flex-1:hover {
